@@ -1,0 +1,62 @@
+/*
+    QUANDO ESCREVEMOS body COMO ABAIXO, ESTAMOS
+    CONFIGURANDO O CORPO E TODO O CONTEÚDO DELE
+*/
+body {
+    margin: 0; /* DISTANCIAMENTO EXTERNO */
+    padding: 0; /* DISTANCIAMENTO INTERNO */
+    background-color: black; /* COR DE FUNDO DA PÁGINA */
+    background-image: url("imagem-fundo.jpg"); /* Copyright Pexels @goumbik */
+    background-size: cover;
+    color: darkgreen; /* COR DO TEXTO */
+    font-size: 1.6em; /* TAMANHO DO TEXTO */
+}
+
+#cabecalho {
+    background-color: aqua;
+    width: 100%; /* LARGURA DO ITEM */
+    text-align: center; /* ALINHAMENTO DO TEXTO DENTRO DA DIV */
+}
+
+.flexbox-container{
+    display: flex; /* MODO DE POSICIONAR O ITEM, NO CASO "FLEX" */
+    width: 100%;
+    background-color: lawngreen;
+}
+
+#conteudo {
+    background-color: blue;
+    width: 70%;
+    height: 350px; /* ALTURA TO ITEM */
+}
+
+#barra-lateral {
+    background-color: blueviolet;
+    width: 30%;
+    height: 350px;
+}
+
+#agradecimento {
+    background-color: fuchsia;
+    text-align: center;
+    width: 50%;
+}
+
+#criador {
+    background-color: darkgoldenrod;
+    text-align: center;
+    width: 50%;
+}
+
+#rodape {
+    position: absolute;
+        /*  DEFINIMOS QUE A POSIÇÃO É ABSOLUTA
+            E NÃO RESPEITA NENHUM OUTRO ITEM EXTERNO
+        */
+    bottom: 0; /* DEFINIMOS A DISTÂNCIA INFERIOR DO ITEM EM RELAÇÃO A PÁGINA */
+}
+
+#imagem-canetas{
+    width: 350px;
+    height: 250px;
+}

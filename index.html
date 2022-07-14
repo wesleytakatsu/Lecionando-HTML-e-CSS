@@ -1,0 +1,84 @@
+<!-- O DOCTYPE DEFINE A LINGUAGEM QUE ESTAMOS ESCREVENDO E A VERSÃO -->
+<!DOCTYPE html>
+
+<!-- AQUI DEFINIMOS A LINGUAGEM DA PÁGINA -->
+<html lang="pt-BR">
+
+<!--
+    O HEAD É A ÁREA QUE DEFINIMOS AS CONFIGURAÇÕES PRINCIPAIS,
+    IMPORTAMOS CÓDIGOS CSS (ESTILO) E OUTRAS COISAS
+-->
+<head>
+    <!-- CHARSET É ONDE DEFINIMOS OS CARACTERES QUE USAREMOS -->
+    <meta charset="UTF-8">
+
+    <!-- STYLESHEET É ONDE IMPORTAMOS OS CÓDIGOS DE ESTILO PARA NOSSA PÁGINA -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- TITLE É ONDE DEFINIMOS O TÍTULO DA NOSSA PÁGINA -->
+    <title>Aula de HTML e CSS</title>
+</head>
+
+<!--
+    O BODY É ONDE ENTRA TODO O CÓDIGO DO CORPO DO SITE
+-->
+<body>
+    <!--
+        O HEADER DEFINE A PARTE DO CABEÇALHO DA MINHA
+        PÁGINA PARA OS MOTORES DE BUSCA COMO O GOOGLE
+    -->
+    <header>
+        <div id="cabecalho"> <!-- ID É A IDENTIFICAÇÃO ÚNICA DA TAG -->
+            <!--
+                O H1, H2, H3 E EM DIANTE, SERVEM PARA MARCAR TÓPICOS E SUBTÓPICOS
+                DA NOSSA PÁGINA DE ACORDO COM O SEU GRAU DE IMPORTÂNCIA
+            -->
+            <h1>Aula de códigos HTML e CSS</h1>
+            <h2>Primeira página em HTML</h2>
+        </div>
+    </header>
+
+     <!--
+        CLASS É UMA MARCAÇÃO PARA REUTILIZAR CARACTERÍSTICAS
+        COMUNS CONFIGURADAS NO CSS EM DIVERSAS ÁREAS DO HTML
+    -->
+    <div class="flexbox-container">
+        <div id="conteudo">
+            <!--
+                A SECTION SERVE PARA MARCAR UMA ÁREA DE SEÇÃO DE UM SITE PARA
+                SER MELHOR PROCESSADO NOS MOTORES DE BUSCA COMO O GOOGLE
+            -->
+            <section>
+                <h3>Neste estudo iremos aprender sobre algumas áreas principais de uma página HTML</h3>
+                <img
+                    id="imagem-canetas"
+                    src="pexels-frans-van-heerden.jpg"
+                    alt="Pexels Frans Van Heerden"    
+                />
+
+            </section>
+        </div>
+        
+        <div id="barra-lateral">
+            <section>
+                <h3>Tópicos aprendidos até agora:</h3>
+            </section>
+        </div>
+    </div>
+    <!--
+        FOOTER É A DEFINIÇÃO DE ONDE FICA O RODAPÉ DA PÁGINA
+    -->
+    <footer>
+        <div class="flexbox-container" id="rodape">
+            <div id="agradecimento">
+                Criado para ensinar códigos HTML e CSS para os alunos mais incríveis do mundo!
+            </div>
+            <div id="criador">
+                Desenvolvido por Wesley Takatsu
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
